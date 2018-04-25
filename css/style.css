@@ -211,14 +211,62 @@
 #careers{
     background: linear-gradient(#9C2F81, #F94943);
     padding-top: 50px;
-    text-align: center;  
-  //  color: white;
+    text-align: justify;  
+    color: white;
+}
+.c_title{
+    text-align: center;
+    border-bottom: 1px solid white;
+    //  width: 580px;
+    //  margin: auto;
+    margin: 0 280px 50px 280px;
+    box-sizing: border-box;
 }
 #careers h2{
     line-height: 2;
     letter-spacing: 3px;
     font-size: 30px;
 }
-#careers p{
-    padding-bottom: 20px;
+
+#careers button{
+    margin-top: 100px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 200;
+    border:1px solid gray;
+    border-radius: 35px;
+    padding:15px 25px;
+    background: none;
+}
+.left_side{
+    padding-right: 80px;
+}
+.position{
+    padding-bottom: 30px;
+}
+.behind{
+    text-align: center;
+    padding-top: 50px;
+    border-bottom: 1px solid grey;
+    margin: 0 250px 50px 250px;
+    box-sizing: border-box;
+}
+.behind h2{
+    line-height: 2;
+    letter-spacing: 3px;
+    font-size: 30px; 
+}
+.behind p{
+    color: gray;
+    font-size: 18px;
+}
+.b_left{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0;
+}
+.b_left img{
+    width: 70%;
+    float: left;
+    border-radius: 10px;
 }
