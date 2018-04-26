@@ -268,5 +268,75 @@
 .b_left img{
     width: 70%;
     float: left;
+    border-radius: 10px 0 0 10px;
+    margin-right: 30px;
+}
+.command{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.command img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.command_f{
+    margin-top: 175px;
+}
+.command_f p{
+    padding-top: 10px;
+}
+.b_right{
+    border: 1px solid gray;
     border-radius: 10px;
+}
+.b_right img{
+    padding: 3px;
+    border-radius: 10px 10px 0 0;
+}
+.command_r{
+    padding: 20px;
+}
+.command_t{
+    margin-top: 72px;
+    padding-bottom: 30px;
+}
+.command_t img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    float: left;
+}
+.command_t p{
+    padding-top: 10px;
+    float: right;
+}
+.footer{
+    padding:50px 0;
+    color: gray;
+    font-size: 18px;
+}
+.footer h2{
+    color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.footer ul li{
+    list-style: none;
+    padding: 5px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;   
+}
+::placeholder{
+    opacity: 0.5;
+}
+.input{
+    margin-top: 20px;
+    padding: 10px;
+    height: 25px;
+    border-radius: 3px;
 }
